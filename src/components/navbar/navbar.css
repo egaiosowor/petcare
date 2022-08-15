@@ -36,7 +36,7 @@
 
 @media (max-width: 1023px){
     .navbar{
-        padding: 20px 40px;
+        padding: 20px 30px;
     }
     .navbar__links{
         display: none;
@@ -55,7 +55,7 @@
     }
 
     .navbar.fixed{
-        border-bottom: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(161,169,197,.2);
     }
 }
 

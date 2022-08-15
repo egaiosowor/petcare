@@ -70,11 +70,11 @@ const Navbar = ()=>{
             </button>
             <div className={overlayClass}></div>
             <ul className={menuClass}>
-                <li><Link to="home" smooth={true} duration={200} offset={-70}>Home</Link></li>
-                <li><Link to="about" smooth={true} duration={200}>About</Link></li>
-                <li><Link to="services" smooth={true} duration={200}>Services</Link></li>
-                <li><Link to="reviews" smooth={true} duration={200}>Reviews</Link></li>
-                <li><Link to="contact" smooth={true} duration={200}>Contact</Link></li>
+                <li><Link to="home" smooth={true} duration={500} offset={-70}>Home</Link></li>
+                <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+                <li><Link to="services" smooth={true} duration={500}>Services</Link></li>
+                <li><Link to="reviews" smooth={true} duration={500}>Reviews</Link></li>
+                <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                 <li><a href="">Request Services</a></li>
             </ul>
         </nav>
