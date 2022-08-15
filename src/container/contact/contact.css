@@ -1,0 +1,48 @@
+.contact{
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: #1C1B32;
+}
+
+.contact__text {
+    margin-bottom: 55px;
+}
+
+.contact__text h2{
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.contact__text p{
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, .5);
+    line-height: 30px;
+}
+
+.contact__img{
+    display: grid;
+}
+
+@media (min-width: 1024px){
+    .contact{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        max-width: 85%;
+        margin: 0 auto 100px;
+        padding: 50px 100px 70px;
+        border-radius: 30px;
+    }
+
+    .contact__text{
+        flex-basis: 40%;
+        margin: 0;
+    }
+
+    .contact__img{
+        flex-basis: 35%;
+        margin-top: -130px;
+    }
+}

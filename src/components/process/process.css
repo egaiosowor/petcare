@@ -1,0 +1,25 @@
+.process{
+    text-align: center;
+}
+
+.process img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.process h4{
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.process p{
+    color: rgba(100, 100, 100, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}

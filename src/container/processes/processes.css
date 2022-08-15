@@ -1,0 +1,25 @@
+.processes{
+    padding: 70px 40px;
+}
+
+.processes__header h2{
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.processes__container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.2fr));
+    row-gap: 30px;
+}
+
+@media (min-width: 800px){
+    .processes{
+        padding: 100px;
+    }
+
+    .processes__container{
+        padding: 0 100px;
+    }
+}

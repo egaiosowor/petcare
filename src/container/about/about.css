@@ -1,0 +1,79 @@
+.about{
+    padding: 70px 40px;
+}
+
+.about__text{
+    margin-bottom: 55px;
+}
+
+.about__text h2{
+    margin-bottom: 15px;
+}
+
+.about__text p{
+    margin-bottom: 15px;
+    color: rgba(18, 18, 18, .6);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.about__text ul{
+    margin-bottom: 15px;
+}
+
+.about__text ul li{
+    padding-left: 45px;
+    font-size: 14px;
+    line-height: 55px;
+    background: url(../../assets/check-box.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.about__image{
+    display: grid;
+}
+
+@media (min-width: 550px){
+    .about__text ul{
+        display: inline-block;
+        columns: 2;
+    }
+}
+
+@media (min-width: 1024px){
+    .about{
+        padding: 100px;
+    }
+}
+
+@media (min-width: 1045px){
+    .about__text ul{
+        columns: 2;
+    }
+}
+
+@media (min-width: 1150px){
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .about__text{
+        flex-basis: 45%;
+        margin: 0;
+    }
+
+    .about__text p{
+        line-height: 30px;
+    }
+
+    .about__image{
+        flex-basis: 40%;
+    }
+}

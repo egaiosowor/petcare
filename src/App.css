@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul{
+    padding: 0;
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+    text-decoration: none;
+    color: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media (min-width: 800px){
+    h2{
+        font-size: 30px;
+        line-height: 45px;
+        letter-spacing: 0.03em;
+    }
+}
+
+#root{
+    background-color: rgba(253, 247, 241, 1);
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    color: #fff;
+    font-size: 15px;
+    background: rgba(112, 62, 219, 1);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(133, 80, 248);;
+}
+
+.btn--outline{
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+}
+
+.btn--outline:hover{
+    background: rgba(255, 255, 255, 0.726);
 }

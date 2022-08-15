@@ -1,0 +1,28 @@
+.testimonials{
+    padding: 40px;
+}
+
+.testimonials__header h2{
+    margin-bottom: 75px;
+    color: #121212;
+    text-align: center;
+}
+
+.testimonials__container{
+    display: grid;
+    justify-content: space-around;
+    row-gap: 50px
+}
+
+@media (min-width: 800px){
+    .testimonials{
+        padding: 70px 70px;
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width: 900px){
+    .testimonials__container{
+        grid-template-columns: repeat(auto-fit, minmax(350px, 360px));
+    }
+}
