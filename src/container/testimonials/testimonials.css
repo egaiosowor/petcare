@@ -2,6 +2,11 @@
     padding: 40px;
 }
 
+.testimonials__header{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
 .testimonials__header h2{
     margin-bottom: 75px;
     color: #121212;

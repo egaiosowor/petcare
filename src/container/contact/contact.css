@@ -5,7 +5,9 @@
 }
 
 .contact__text {
-    margin-bottom: 55px;
+    margin: 0 auto 55px auto;
+    max-width: 500px;
+    text-align: center;
 }
 
 .contact__text h2{
@@ -22,6 +24,8 @@
 
 .contact__img{
     display: grid;
+    max-width: 70%;
+    margin: auto;
 }
 
 @media (min-width: 1024px){
@@ -39,10 +43,12 @@
     .contact__text{
         flex-basis: 40%;
         margin: 0;
+        text-align: left;
     }
 
     .contact__img{
         flex-basis: 35%;
-        margin-top: -130px;
+        margin: -130px 0 0 0;
+        max-width: none;
     }
 }

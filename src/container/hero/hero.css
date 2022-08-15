@@ -3,7 +3,9 @@
 }
 
 .hero__text{
-    margin-bottom: 55px;
+    margin: 0 auto 55px auto;
+    max-width: 500px;
+    text-align: center;
 }
 
 .hero__text h1{
@@ -46,6 +48,7 @@
         flex-basis: 45%;
         margin: 0;
         max-width: none;
+        text-align: left;
     }
 
     .hero__text h1{

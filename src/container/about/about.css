@@ -35,6 +35,8 @@
 
 .about__image{
     display: grid;
+    max-width: 80%;
+    margin: 0 auto 0 0;
 }
 
 @media (min-width: 550px){
